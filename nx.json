@@ -1,0 +1,46 @@
+{
+  "npmScope": "contact-entry-system-ui-workspace",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "NzMxZGQ4ODctN2RiYy00OTljLWE0ZDEtM2ZiZGE1NmM2NzBifHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
+  "projects": {
+    "conact-entry-system-ui": {
+      "tags": []
+    },
+    "conact-entry-system-ui-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "conact-entry-system-ui"
+      ]
+    }
+  }
+}
