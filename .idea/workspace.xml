@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a33598-e04f-4be3-a257-6f98e140ed42" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +34,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="React Native.contact-entry-system-api">
+  <component name="RunManager" selected="React Native.contact-entry-system-ui">
     <configuration name="contact-entry-system-api" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v16.9.1/bin/node" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="contact-entry-system-api" type="ReactNative" factoryName="React Native">
+    <configuration name="contact-entry-system-ui" type="ReactNative" factoryName="React Native">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v16.9.1/bin/node" />
-      <react-native value="" />
+      <react-native value="$PROJECT_DIR$/node_modules/react" />
       <platform value="ANDROID" />
       <envs />
       <only-packager />
@@ -54,7 +54,7 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.contact-entry-system-api" />
-      <item itemvalue="React Native.contact-entry-system-api" />
+      <item itemvalue="React Native.contact-entry-system-ui" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +65,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633641319890</updated>
-      <workItem from="1633641321931" duration="2662000" />
+      <workItem from="1633641321931" duration="2782000" />
+      <workItem from="1633645009473" duration="215000" />
+      <workItem from="1633645262628" duration="80000" />
+      <workItem from="1633645375726" duration="1530000" />
+      <workItem from="1633700691946" duration="20000" />
+      <workItem from="1633721128722" duration="1307000" />
+      <workItem from="1633727868034" duration="599000" />
     </task>
     <servers />
   </component>
@@ -82,5 +88,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/contact-entry-system-api" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
